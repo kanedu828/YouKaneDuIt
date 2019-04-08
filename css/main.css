@@ -15,6 +15,7 @@ body{
     display:grid;
     grid-template-columns: repeat(4, 1fr);
     background-color: bisque;
+    overflow:hidden;
 }
 
 .bannerLink{
