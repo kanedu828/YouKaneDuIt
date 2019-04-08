@@ -31,53 +31,53 @@ body{
 
 #aboutMeLink{
     background-image: url(../images/about_me_image.png);
-    background-size: 130%;
+    background-size: 125%;
     transition: transform ease 1s;
     
 }
 
 #aboutMeLink:hover{
     background-image: url(../images/about_me_image.png);
-    background-size: 130%;
+    background-size: 125%;
     transform: scale(1.1,1.1);
     transition: transform ease 1s;  
 }
 
 #blogLink{
     background-image: url(../images/blog_image.png);
-    background-size: 130%;
+    background-size: 125%;
     transition: transform ease 1s;
 }
 
 #blogLink:hover{
     background-image: url(../images/blog_image.png);
-    background-size: 130%;
+    background-size: 125%;
     transform: scale(1.1,1.1);
     transition: transform ease 1s;  
 }
 
 #codeLink{
     background-image: url(../images/code_image.png);
-    background-size: 130%;
+    background-size: 125%;
     transition: transform ease 1s;
 }
 
 #codeLink:hover{
     background-image: url(../images/code_image.png);
-    background-size: 130%;
+    background-size: 125%;
     transform: scale(1.1,1.1);
     transition: transform ease 1s;  
 }
 
 #portfolioLink{
     background-image: url(../images/portfolio_image.png);
-    background-size: 130%;
+    background-size: 125%;
     transition: transform ease 1s;
 }
 
 #portfolioLink:hover{
     background-image: url(../images/portfolio_image.png);
-    background-size: 130%;
+    background-size: 125%;
     transform: scale(1.1,1.1);
     transition: transform ease 1s;  
 }
