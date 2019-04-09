@@ -1,0 +1,66 @@
+a {
+    background-color: red;
+  box-shadow: 0 5px 0 darkred;
+  color: white;
+  padding: 1em 1.5em;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+ul{
+    text-decoration-style: none;
+}
+
+a:hover {
+  background-color: #ce0606;
+  cursor: pointer;
+}
+
+a:active {
+  box-shadow: none;
+  top: 5px;
+}
+
+h1{
+    font-size: 200px;
+    color: aliceblue;
+    
+}
+
+/* Non-Demo Styles */
+body {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+    background-image: url(../images/about-me-background.jpg);
+    background-size: 100%;
+}
+
+.title{
+    text-align: center;
+}
+.info{
+    margin: 350px;
+    text-align: center;
+    background-color: white;
+    border: 5px solid black;
+    border-style: double;
+    padding: 20px;
+    width: 300px;
+    position: absolute;
+    height: 300px;
+	top:100px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+  	
+	margin: auto;
+}
+.buttonDiv{
+    position: relative;
+    margin: 500px;
+        align-content: center;
+}
+
