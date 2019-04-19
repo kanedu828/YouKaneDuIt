@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>YouKaneDuIt</title>
+        <link rel="stylesheet" type="text/css" href="../css/index.css">
+    </head>
+    <body>
+        <section class="topbar">
+            <a id="aboutMeLink" href="../index.html">
+                About Me
+            </a>
+            <a id="blogLink" href="">
+                Blog
+            </a>
+            <a id="codeLink" href="../code.html">
+                Code
+            </a>
+        </section>
+        <section class="content">
+            <h1>Discord Matchmaking Bot</h1>
+            <h3>What is Matchmaking Bot?</h3>
+            <p>
+                Matchmaking bot is a Discord bot that creates lobbies for ranked competitive play. The ranking system is based off of the elo system used in Chess. Users can queue and match against each other to compete.
+            </p>
+            <h3>What is a lobby?</h3>
+            <p>
+                A lobby is a designated area in the Discord server where users can use the bot. These designated areas are Discord channels.
+                Lobbies are seperated by Discord channels so the implmentor can have several competitions in one channel.
+                <br />
+                e.g A server may have three lobbies in three seperate Discord channels. <br />
+                #chess: a channel for chess. <br />
+                #tetris: a channel for Tetris. <br />
+                #street-fighter: a channel for Street Fighter.<br />
+                Each lobby has a seperate queue and ranking system.
+            </p>
+            <h3>How do I use it?</h3>
+            <p>
+                Before the bot can be used in a channel, the channel must first be initialized as a lobby. A server administrator can initialize a lobby with "!f createlobby".
+                After this command is used, the lobby can be used for matchmaking. I strongly suggest having a ruleset for the lobby for users to follow.
+            </p>
+            <p>
+                Users cannot queue for a match just yet. Before they can queue, users must use "!f register" in an initialized lobby to be able to queue. Each lobby must be registered seperately.
+            </p>
+            <p>
+                Now, the user is free to queue for lobbies if they are an initialized lobby AND registered by the user. Queuing can be done with "!f queue". The bot will diretly message the user when
+                a match is found. After the bot messages the user, the user may get in contact with the matched user to start a game.
+            </p>
+            <p>
+                After the match is finished, the loser MUST DIRECTLY MESSAGE THE BOT "!f lose" to report a loss. Only the loser reports the game result. I recommend administrators to take action against
+                those who fail to do so.
+            </p>
+            <p>
+                For futher help, use "!f" or "!f help".
+            </p>
+        </section>
+    </body>
+
+</html>
