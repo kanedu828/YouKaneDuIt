@@ -26,7 +26,7 @@
             <h3>What is a lobby?</h3>
             <p>
                 A lobby is a designated area in the Discord server where users can use the bot. These designated areas are Discord channels.
-                Lobbies are seperated by Discord channels so the implmentor can have several competitions in one channel.
+                Lobbies are seperated by Discord channels so the implmentor can have several competitions in one server.
                 <br />
                 e.g A server may have three lobbies in three seperate Discord channels. <br />
                 #chess: a channel for chess. <br />
@@ -35,24 +35,76 @@
                 Each lobby has a seperate queue and ranking system.
             </p>
             <h3>How do I use it?</h3>
+            <h4>If you are an administrator:</h4>
             <p>
                 Before the bot can be used in a channel, the channel must first be initialized as a lobby. A server administrator can initialize a lobby with "!f createlobby".
                 After this command is used, the lobby can be used for matchmaking. I strongly suggest having a ruleset for the lobby for users to follow.
             </p>
+            <h4>Queueing for a match within a server</h4>
             <p>
-                Users cannot queue for a match just yet. Before they can queue, users must use "!f register" in an initialized lobby to be able to queue. Each lobby must be registered seperately.
+                1) To register to compete in a lobby, head over to an initialized lobby and use "!f register".  Once you register for a lobby, you can queue for a match. Different lobbies much be registered seperately.
             </p>
             <p>
-                Now, the user is free to queue for lobbies if they are an initialized lobby AND registered by the user. Queuing can be done with "!f queue". The bot will diretly message the user when
-                a match is found. After the bot messages the user, the user may get in contact with the matched user to start a game.
+                2) To queue for a match, go into an initialized lobby and use "!f queue". You will be placed into queue and matched against a player with a similar elo. The bot will DM you when a match is found. 
             </p>
             <p>
-                After the match is finished, the loser MUST DIRECTLY MESSAGE THE BOT "!f lose" to report a loss. Only the loser reports the game result. I recommend administrators to take action against
-                those who fail to do so.
+                3) When a match is found, contact the user the bot sends to you. Play a best out of 3 match in standard tournament rules or whatever rules the server specifies. 
             </p>
             <p>
-                For futher help, use "!f" or "!f help".
+                4) When the match is finished, the loser MUST directly message Matchmaking Bot "!f lose". You must DM the bot!
             </p>
+            <p>
+                5) If there is a disagreement, please contact a mod. 
+            </p>
+            <h4>Queueing for a match across servers</h4>
+            <p>
+                1) Register for cross server matchmaking with "!f register smashultimate"
+            </p>
+            <p>
+                2) Queue for a cross server match with "!f queue smashultimate". You will be placed into queue and matched against users in any server that implements Matchmaking bot. The bot will DM you when a match is found.  
+            </p>
+            <p>
+                3) When a match is found, contact the user the bot sends to you. Play a best out of 3 match in the Matchmaking bot offical rules below. 
+            </p>
+            <p>
+                4) When the match is finished, the loser MUST directly message Matchmaking Bot "!f lose". You must DM the bot!
+            </p>
+            <p>
+                5) If there is a disagreement, please contact me at my Discord, Kane#1000. 
+            </p>
+            <p>
+                For further commands and help, use "!f" or "!f help". For any further questions, concerns, or feedback, contact me on Discord at Kane#1000.
+            </p>
+            <h1>Cross Server Matchmaking Bot Rule Set</h1>
+            <h3>Game Rules</h3>
+            <p>
+                Three stocks, Eight minutes.<br />
+                No handicap. <br />
+                Damage ration 1.0x <br />
+                Items: Off/None <br />
+                Stage Hazards: Off <br />
+                Miis: All movesets are legal <br />
+            </p>
+            <h3>Stage list</h3>
+            <ul>
+                <li>Battlefield</li>
+                <li>Final Desitination</li>
+                <li>Pokemon Stadium 2</li>
+                <li>Smashville</li>
+                <li>Town and City</li>
+            </ul>
+            <h4>Counter Pick Stages</h4>
+            <ul>
+                <li>Kalos Pokemon League</li>
+                <li>Yoshi's Island</li>
+            </ul>
+            <p>The ruleset is based off of this https://docs.google.com/document/d/1e9G9jlUrx3G8TNlwr7LeD118P5O9R_GggUJi4YLqHRc/edit <br />
+                Please refer to the google doc link if there is any confusion.
+            </p>
+            <h1>Servers That Implement Matchmaking Bot</h1>
+            <ul>
+                <li>r/SmashBrosUltimate: https://discord.gg/x5f987v</li>
+            </ul>
         </section>
     </body>
 
